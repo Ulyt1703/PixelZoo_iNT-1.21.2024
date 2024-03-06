@@ -7,7 +7,7 @@ document.addEventListener("keydown", function(){
         myFocus = (myFocus - 1 + userPlayer.length) % userPlayer.length
     }
     else if(event.key === "Enter"){
-        window.location.href="../game-chicken/game-chicken.html"
+        window.location.href="../game-chicken/index.html"
     }
     else{
         window.location.href
@@ -15,7 +15,7 @@ document.addEventListener("keydown", function(){
 
     if(event.key === "ArrowRight" || event.key === "D" || event.key === "d"){
         myFocus = (myFocus + 1) % userPlayer.length
-        window.location.href="../game/game.html"
+        window.location.href="../game/index.html"
     }
     userPlayer[myFocus].classList.add("new")
 })
