@@ -3,7 +3,7 @@ document.addEventListener("keydown", function(){
     myLoading.classList.add("new")
     if(event.key === "Enter"){
         setTimeout(function(){
-            window.location.href="/players/player.html"
+            window.location.href="../players/player.html"
         },1850)
         setTimeout(function(){
             myLoading.classList.remove("new")
